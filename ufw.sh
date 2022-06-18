@@ -23,7 +23,5 @@ ufw allow from 2605:6400:ced3::/48;
 ufw allow from 2605:6400:505f::/48;
 ufw allow from 2605:6400:904c::/48;
 
-ufw enable;
-
 sudo ufw status verbose;
 
