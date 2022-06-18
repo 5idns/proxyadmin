@@ -1,3 +1,5 @@
+sudo timedatectl set-timezone Asia/Shanghai;
+
 ufw allow from 216.24.255.173;
 ufw allow from 103.79.78.122;
 ufw allow from 198.148.120.73;
@@ -20,6 +22,8 @@ ufw allow from 2605:6400:10:1156::/64;
 ufw allow from 2605:6400:ced3::/48;
 ufw allow from 2605:6400:505f::/48;
 ufw allow from 2605:6400:904c::/48;
+
+ufw enable;
 
 sudo ufw status verbose;
 
